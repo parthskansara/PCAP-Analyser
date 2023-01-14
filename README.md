@@ -39,7 +39,7 @@ $ pip install -r requirements.txt
 ```
 
 
-To run the PCAP Analyser for TCP Flows, run the following command. It will prompt you to upload your PCAP file. Here's a [sample file](LINK).
+To run the PCAP Analyser for TCP Flows, run the following command. It will prompt you to upload your PCAP file. Here's a [sample file](https://github.com/parthskansara/PCAP-Analyser/blob/main/Sample%20PCAP%20files/sample-tcp-pcap.pcap).
 
 ```bash
 # Run the PCAP Analyser (for TCP Flows)
@@ -48,7 +48,7 @@ $ python pcap-analyser-tcp.py
 ```
 
 
-To run the PCAP Analyser for HTTP Flows, run the following command. Here are the files we used [HTTP 1.0](LINK) [HTTP 1.1](LINK) [HTTP 2.0](LINK).
+To run the PCAP Analyser for HTTP Flows, run the following command. Here are the files we used [HTTP 1.0](https://github.com/parthskansara/PCAP-Analyser/blob/main/Sample%20PCAP%20files/sample-http-1080-pcap.pcap) [HTTP 1.1](https://github.com/parthskansara/PCAP-Analyser/blob/main/Sample%20PCAP%20files/sample-tcp-1081-pcap.pcap) [HTTP 2.0](https://github.com/parthskansara/PCAP-Analyser/blob/main/Sample%20PCAP%20files/sample-tcp-1082-pcap.pcap).
 
 
 ```bash
@@ -59,19 +59,19 @@ $ python pcap-analyser-http.py
 
 
 ## Analysis
-1. This [document](LINK) explains how our tool can be used to analyse the PCAP files for the following information about TCP flows:
+1. This [document](https://github.com/parthskansara/PCAP-Analyser/blob/main/docs/PCAP%20Analyser%20-%20TCP%20Flows.pdf) explains how our tool can be used to analyse the PCAP files for the following information about TCP flows:
 * Number of TCP flows
 * Transaction details for each flow
 * Throughput, loss rate, average RTT and theoretical throughput for each flow
 
-2. This [document](LINK) explains how our tool can be used to analyse the PCAP files for the following information on Congestion Control in the captured TCP flows:
+2. This [document](https://github.com/parthskansara/PCAP-Analyser/blob/main/docs/PCAP%20Analyser%20-%20TCP%20Flows%20(Congestion%20Control).pdf) explains how our tool can be used to analyse the PCAP files for the following information on Congestion Control in the captured TCP flows:
 * Congestion Window size
 * Number of retransmitted packets
   * Count of packets retransmitted due to Triple Duplicate ACK
   * Count of packets retransmitted due to Packet Loss
   
-3. This [document](LINK) explains how our enhanced tool can be used to analyse the PCAP files for the following information about HTTP flows:
-* Reassembled unique HTTP requests/responses and the unique TCP tuple for all TCP segments ([see this](LINK))
+3. This [document](https://github.com/parthskansara/PCAP-Analyser/blob/main/docs/PCAP%20Analyser%20-%20HTTP%20Flows.pdf) explains how our enhanced tool can be used to analyse the PCAP files for the following information about HTTP flows:
+* Reassembled unique HTTP requests/responses and the unique TCP tuple for all TCP segments ([see this](https://github.com/parthskansara/PCAP-Analyser/blob/main/docs/Reassembled%20HTTP%20flows.txt))
 * Identify the version of HTTP used (1.0, 1.1 or 2.0)
 * Load times for each HTTP flow
 * Number of packets and raw bytes sent over each HTTP flow
