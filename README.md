@@ -5,7 +5,7 @@
 * [Libraries used](#libraries-used)
 * [Run the project](#run-the-project)
 * [Analysis](#analysis)
-* [Source](#source)
+* [Reference](#reference)
 
 ## Introduction:
 PCAP is a file format used to capture packets going on the wire. When you exchange packets between A and B, most modern OSes will let you capture the packets that enter and leave the NIC. 
@@ -76,7 +76,7 @@ $ python pcap-analyser-http.py
 * Load times for each HTTP flow
 * Number of packets and raw bytes sent over each HTTP flow
 
-## Source
+## Reference
 This project was completed as a part of the course CSE 534: Fundamentals of Computer Vision (Fall 2022) under [Prof. Aruna Balasubramanian](https://www.cs.stonybrook.edu/people/faculty/ArunaBalasubramanian) at Stony Brook University.
 
 
