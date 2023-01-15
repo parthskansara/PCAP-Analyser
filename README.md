@@ -10,7 +10,7 @@
 ## Introduction:
 PCAP is a file format used to capture packets going on the wire. When you exchange packets between A and B, most modern OSes will let you capture the packets that enter and leave the NIC. 
 
-A PCAP library is available to parse the files. TCPdump is a command line tool to capture PCACP files. Wireshark is a similar tool that has a GUI; Wireshark can also be used to analyze the PCAP files.
+A PCAP library is available to parse the files. TCPdump is a command line tool to capture PCAP files. Wireshark is a similar tool that has a GUI; Wireshark can also be used to analyze the PCAP files.
 
 In this project, we develop our own PCAP Analysis tool. We use this tool to analyse the TCP flows in our PCAP file. 
 
